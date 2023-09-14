@@ -1,0 +1,380 @@
+/* importing font from google "Roboto(Regular 400)" */
+@import url('https://fonts.googleapis.com/css2?family=REM&family=Roboto&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+}
+
+body {
+    overflow-x: hidden;
+    min-height: 100vh;
+    background-color: white;
+}
+
+:root {
+    --color1: #fff;
+    --color2: #5465FF;
+    --color3: blue;
+    --blue: #4487fa;
+    --yellow: #F9DB6D;
+    --white: #f1f1f1;
+}
+
+#Recipe-list-h1 {
+    text-align: center;
+}
+
+/* header section */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header {
+    overflow: hidden;
+    background-color: var(--color2);
+    padding: 20px 10px;
+}
+
+.header a {
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 25px;
+    border-radius: 4px;
+}
+
+.header a.logo {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.header a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.header a.active {
+    background-color: dodgerblue;
+    color: white;
+}
+
+.header-right {
+    float: right;
+}
+
+@media screen and (max-width: 500px) {
+    .header a {
+        float: none;
+        display: block;
+        text-align: left;
+    }
+
+    .header-right {
+        float: none;
+    }
+}
+
+/* header ends here */
+
+li,
+a,
+.Button {
+    font-weight: 500;
+    font-size: 16px;
+    text-decoration: none;
+    color: black;
+}
+
+.Button {
+    margin-left: 20px;
+    padding: 10px 25px;
+    background-color: var(--white);
+    border: 1px solid black;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+.Button:hover {
+    background-color: var(--yellow);
+}
+
+Main {
+    display: flex;
+    justify-content: center;
+    max-width: 100vw;
+}
+
+#welcome {
+    margin: 600px;
+    padding: 10px;
+    margin: 10px;
+}
+
+
+.text-description {
+    padding: 10px;
+    width: 90%;
+}
+
+.text-description h1 {
+    font-size: 42px;
+}
+
+.text-description p {
+    font-size: 26px;
+}
+
+.cta-button {
+    display: inline-block;
+    font-size: 18px;
+    font-weight: 500;
+    color: var(--color2);
+    background-color: white;
+    border: 1px solid var(--color2);
+    padding: 10px 20px;
+    border-radius: 9px;
+    margin-right: 10px;
+}
+
+sd .cta-button {
+    margin: 5px;
+}
+
+.cta-button:hover {
+    color: white;
+    background-color: var(--color2);
+}
+
+#Recipe-list-h1 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+/* Recipe_list section */
+#Recepe_list_Main {
+    margin-top: 5%;
+    margin-left: 5%;
+    display: flex;
+    justify-content: center;
+    max-width: 95%;
+    margin: 0 auto;
+}
+
+.Main-list-section {
+    /* display: flex */
+    width: 80%;
+    flex-direction: column;
+    align-items: center;
+}
+
+.recipes-category {
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.recipes-category button {
+    margin: 5px;
+}
+
+.post-collection {
+    margin-top: 5%;
+    display: flex;
+    justify-content: center;
+}
+
+.post-main-container {
+    margin: 10px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+/* kitchen tips section */
+#tips-hero {
+    padding: 50px;
+    display: block;
+}
+
+.Main-article {
+    padding: 5px;
+    display: flex;
+    font-size: 20px;
+}
+
+.Sub-article {
+    display: flex;
+    padding: 5px;
+}
+
+.hero-list-section {
+    width: 60%;
+    padding: 30px;
+    margin-left: 100px;
+}
+
+.line {
+    margin-top: 10px;
+    color: #cf6916ec;
+    margin-bottom: 10px;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+}
+
+/* button css for add.php Go to Receipe button*/
+.go-back {
+    display: inline-block;
+    padding: 6px 10px;
+    background-color: #007BFF;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 3px;
+    font-size: 18px;
+    transition: background-color 0.3s ease;
+}
+
+.go-back:hover {
+    background-color: #0056b3;
+}
+
+/* footer section */
+.footer {
+    flex-direction: column;
+    padding: 0 10%;
+    position: relative;
+    color: white;
+    background-color: black;
+}
+
+.ft1 {
+    display: flex;
+    padding: 5px;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    height: 200px;
+    background-color: black;
+}
+
+.ft-logo img {
+    height: 50px;
+}
+
+.follow-us h2 {
+    text-transform: uppercase;
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+.follow-us a {
+    text-decoration: none;
+    font-size: 25px;
+    color: var(--black);
+    padding: 5px;
+    border-radius: 5px;
+    /* background-color: var(--black) ; */
+}
+
+.footer-svg {
+    position: relative;
+    bottom: -5px;
+}
+
+.about-section {
+    width: 80%;
+}
+
+hr {
+    margin: 20px 0;
+}
+
+.copyright {
+    padding: 10px;
+}
+
+.copyright a {
+    color: white;
+}
+
+.fa-facebook {
+    color: blue;
+}
+
+.fa-instagram {
+    color: pink;
+}
+
+.fa-pinterest {
+    color: red;
+}
+
+/* fotter ends here */
+
+/* change according to screen */
+@media (min-width: 576px) {
+    .img-box {
+        width: 100%;
+        /* Adjust width for small screens */
+        height: auto;
+    }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+    .post-main-container {
+        max-width: 90%;
+    }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+    .img-box {
+        width: 200px;
+        height: 150px;
+    }
+
+    .cta-button {
+        font-size: 20px;
+    }
+
+}
+
+@media (max-width:450px) {
+
+    .container .heading {
+        font-size: 25px;
+    }
+
+    .container .box-container {
+        grid-template-columns: 1fr;
+    }
+
+    .container .box-container .box .image {
+        height: 200px;
+    }
+
+    .container .box-container .box .content p {
+        font-size: 12px;
+    }
+
+    .container .box-container .box .content .icons span {
+        font-size: 12px;
+    }
+}
